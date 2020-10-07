@@ -12,16 +12,16 @@ import Video from "./components/Video/index";
 function App() {
   return (
     <div className="App">
-      <Router>
-        <NavBar />
-        <main>
+      <main>
+        <Router>
           <Switch>
             <Route exact path={["/", "/work"]} component={Work} />
             <Route exact path="/me" component={Me} />
             <Route exact path="/contact" component={Contact} />
           </Switch>
-        </main>
-      </Router>
+          <NavBar />
+        </Router>
+      </main>
       <Footer />
     </div>
   );
