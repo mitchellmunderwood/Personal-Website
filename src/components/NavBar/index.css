@@ -1,4 +1,13 @@
 /* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  nav {
+    position: fixed;
+    top: 1em;
+    right: 1em;
+    transition: 0.2s;
+  }
+}
+
 @media (min-width: 576px) {
   nav {
     position: fixed;
