@@ -1,12 +1,5 @@
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  #marketing {
-    position: fixed;
-    top: 1em;
-    left: 1em;
-    transition: 0.2s;
-  }
-
   nav {
     position: fixed;
     top: 1em;
@@ -17,13 +10,6 @@
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  #marketing {
-    position: fixed;
-    top: 1em;
-    left: 1em;
-    transition: 0.2s;
-  }
-
   nav {
     position: fixed;
     top: 1em;
@@ -64,22 +50,6 @@
     right: 3em;
     transition: 0.2s;
   }
-}
-
-#marketing-logo-img {
-  width: 30px;
-  height: 30px;
-}
-
-#marketing-name-p {
-  position: relative;
-  margin: 0px;
-  padding: 0px;
-  top: 44px;
-  right: 37px;
-  transform: rotate(-90deg);
-  font-weight: 400;
-  letter-spacing: 3px;
 }
 
 ul {

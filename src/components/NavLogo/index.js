@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../../media/plant.svg";
+import "./index.css";
 
 function NavLogo() {
   return (

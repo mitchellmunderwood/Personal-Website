@@ -1,0 +1,67 @@
+@media (max-width: 576px) {
+  #marketing {
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    transition: 0.2s;
+  }
+}
+
+@media (min-width: 576px) {
+  #marketing {
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    transition: 0.2s;
+  }
+}
+
+@media (min-width: 768px) {
+  #marketing {
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    transition: 0.2s;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #marketing {
+    position: fixed;
+    top: 2em;
+    left: 2em;
+    transition: 0.2s;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #marketing {
+    position: fixed;
+    top: 3em;
+    left: 3em;
+    transition: 0.2s;
+  }
+}
+
+#marketing-logo {
+  width: 30px;
+  height: 30px;
+}
+
+#marketing-logo-img {
+  width: 30px;
+  height: 30px;
+}
+
+#marketing-name-p {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  top: 44px;
+  right: 37px;
+  transform: rotate(-90deg);
+  font-weight: 400;
+  letter-spacing: 3px;
+}
