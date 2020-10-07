@@ -7,17 +7,20 @@ import Me from "./pages/Me/index";
 import Contact from "./pages/Contact/index";
 import NavBar from "./components/NavBar/index";
 import Footer from "./components/Footer/index";
+import Video from "./components/Video/index";
 
 function App() {
   return (
     <div className="App">
       <Router>
         <NavBar />
-        <Switch>
-          <Route exact path={["/", "/work"]} component={Work} />
-          <Route exact path="/me" component={Me} />
-          <Route exact path="/contact" component={Contact} />
-        </Switch>
+        <main>
+          <Switch>
+            <Route exact path={["/", "/work"]} component={Work} />
+            <Route exact path="/me" component={Me} />
+            <Route exact path="/contact" component={Contact} />
+          </Switch>
+        </main>
       </Router>
       <Footer />
     </div>

@@ -5,17 +5,17 @@ function NavExternal() {
     <ul id="nav-external">
       <li>
         <a href="" title="My Github">
-          <i class="fa fa-github-alt fa-2x"></i>
+          <i className="fa fa-github-alt fa-2x"></i>
         </a>
       </li>
       <li>
         <a href="" title="My Linkedin">
-          <i class="fa fa-linkedin fa-2x"></i>
+          <i className="fa fa-linkedin fa-2x"></i>
         </a>
       </li>
       <li>
         <a href="" title="My Resume">
-          <i class="fa fa-file fa-2x"></i>
+          <i className="fa fa-file fa-2x"></i>
         </a>
       </li>
     </ul>

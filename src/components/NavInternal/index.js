@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function NavInternal() {
   return (
-    <ul class="nav-internal">
+    <ul className="nav-internal">
       <li>
         <Link to="/me">ME</Link>
       </li>
