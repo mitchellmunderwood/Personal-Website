@@ -1,0 +1,13 @@
+#title {
+  font-family: "Caveat";
+  font-size: 80px;
+  margin-bottom: 0px;
+  /* border-bottom: 3px solid black; */
+}
+
+#subtitle {
+  margin-top: 10px;
+  margin-bottom: 100px;
+  font-weight: 200;
+  font-size: 30px;
+}

@@ -1,21 +1,25 @@
 import React from "react";
 import HeroVideo from "../../components/HeroVideo/index";
 import "./index.css";
-import ProjectsTitle from "../../components/ProjectsTitle/index";
 import Projects from "../../components/Projects/index";
-import AboutTitle from "../../components/AboutTitle/index";
-import WorkTitle from "../../components/WorkTitle/index";
 import Container from "../../components/Container/index";
+import Title from "../../components/Title/index";
 
 function Work() {
   return (
     <div id="work-page">
       <HeroVideo />
       <Container>
-        <ProjectsTitle />
+        <Title title="Work" subtitle="Projects I've worked on." />
         <Projects />
-        <AboutTitle />
-        <WorkTitle />
+        <Title
+          title="About Me"
+          subtitle="I'm a creative web developer with a love for ..."
+        />
+        <Title
+          title="Work With Me"
+          subtitle="Got a position you'd like to talk with me about? Email mitchellmunderwood@gmail.com ."
+        />
       </Container>
     </div>
   );
