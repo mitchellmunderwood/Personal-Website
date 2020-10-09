@@ -5,7 +5,7 @@ import ProjectInfo from "../../data/projects";
 
 function Projects() {
   return (
-    <div class="card-flow">
+    <div className="card-flow">
       {ProjectInfo.map((project) => {
         return <ProjectCard project={project} />;
       })}

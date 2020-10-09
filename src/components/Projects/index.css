@@ -8,13 +8,13 @@
 
 .card {
   margin-bottom: 100px;
-  border-bottom: 1px solid black;
 }
 
 .card-text {
   /* width: 100%; */
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid black;
   align-items: center;
 }
 
@@ -53,10 +53,10 @@
   transition: opacity 0.5s ease-in-out;
 }
 
-.card-image:hover .image-repo {
+.card:hover .image-repo {
   opacity: 100;
 }
 
-.card-image:hover .image-live {
+.card:hover .image-live {
   opacity: 100;
 }
