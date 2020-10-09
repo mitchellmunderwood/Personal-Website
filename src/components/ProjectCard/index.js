@@ -21,6 +21,11 @@ function ProjectCard(props) {
         >
           <i className="fa fa-arrow-circle-right fa-2x"></i>
         </a>
+        <ul class="stack-info">
+          {props.project.stack.map((tech) => {
+            return <li>{tech}</li>;
+          })}
+        </ul>
       </div>
       <div className="card-text">
         <h3 className="project-title">{props.project.name}</h3>

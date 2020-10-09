@@ -5,7 +5,7 @@ const data = [
     imageRef: "/parentconnect.png",
     githubLink: "https://github.com/mitchellmunderwood/Parent-Connect",
     deployLink: "https://parent-connect.herokuapp.com/",
-    stack: [],
+    stack: ["Heroku", "Handlebars", "Express", "Node"],
   },
 
   {

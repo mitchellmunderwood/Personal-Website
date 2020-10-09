@@ -7,3 +7,15 @@
   padding: 10px;
   transition: box-shadow 0.3s ease-in-out;
 }
+
+.stack-info {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.card:hover .stack-info {
+  opacity: 100;
+}
