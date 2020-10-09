@@ -4,7 +4,7 @@ const data = [
     description: "Homeschool together during COVID",
     imageRef: "/parentconnect.png",
     githubLink: "https://github.com/mitchellmunderwood/Parent-Connect",
-    deployLink: "https://dashboard.heroku.com/apps/parent-connect",
+    deployLink: "https://parent-connect.herokuapp.com/",
     stack: [],
   },
 
