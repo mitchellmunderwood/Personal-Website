@@ -14,11 +14,12 @@ function Work() {
         <Projects />
         <Title
           title="About Me"
-          subtitle="I'm a creative web developer with a love for ..."
+          subtitle="I'm a creative web developer with design and engineering passion,
+           who wants to help you develop your next big thing."
         />
         <Title
           title="Work With Me"
-          subtitle="Got a position you'd like to talk with me about? Email mitchellmunderwood@gmail.com ."
+          subtitle="Got a position you'd like to talk with me about? Email mitchellmunderwood@gmail.com"
         />
       </Container>
     </div>
