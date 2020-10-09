@@ -1,14 +1,12 @@
 import React from "react";
 import "./index.css";
-// import Video from "../../components/Video/index";
-import VideoFile from "../../media/forest.mp4";
 
 function HeroVideo() {
   return (
     <div id="hero-container">
       <video
         id="hero-video"
-        src={VideoFile}
+        src={process.env.PUBLIC_URL + "/media/forest.mp4"}
         playsInline
         autoPlay
         muted
