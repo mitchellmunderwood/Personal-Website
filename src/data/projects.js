@@ -5,7 +5,7 @@ const data = [
     imageRef: "/parentconnect.png",
     githubLink: "https://github.com/mitchellmunderwood/Parent-Connect",
     deployLink: "https://parent-connect.herokuapp.com/",
-    stack: ["Heroku", "Handlebars", "Express", "Node"],
+    stack: ["JS", "HTML/CSS", "Handlebars", "Express", "Node", "MySQL"],
   },
 
   {
@@ -16,7 +16,7 @@ const data = [
       "https://github.com/mitchellmunderwood/Party-Planning-Committee",
     deployLink:
       "https://mitchellmunderwood.github.io/Party-Planning-Committee/",
-    stack: [],
+    stack: ["JS", "HTML/CSS", "Material Design", "MealsDB API", "DrinksDB API"],
   },
   {
     name: "Eat-Da-Burger!",
@@ -24,7 +24,7 @@ const data = [
     imageRef: "/burgers.png",
     githubLink: "https://github.com/mitchellmunderwood/Burger-Buddy",
     deployLink: "https://burger-buddy-mu.herokuapp.com/",
-    stack: [],
+    stack: ["JS", "HTML/CSS", "Express", "Node", "MySQL"],
   },
   {
     name: "Daily Forecast",
@@ -32,7 +32,7 @@ const data = [
     imageRef: "/weather.png",
     githubLink: "https://github.com/mitchellmunderwood/Weather-App",
     deployLink: "https://mitchellmunderwood.github.io/Weather-App/",
-    stack: [],
+    stack: ["JS", "HTML/CSS", "Bootstrap", "OpenWeather API"],
   },
   {
     name: "Code Quiz",
@@ -40,7 +40,7 @@ const data = [
     imageRef: "/quiz.png",
     githubLink: "https://github.com/mitchellmunderwood/Code-Quiz",
     deployLink: "https://mitchellmunderwood.github.io/Code-Quiz/",
-    stack: [],
+    stack: ["JS", "HTML/CSS"],
   },
   {
     name: "Password Generator",
@@ -48,7 +48,7 @@ const data = [
     imageRef: "/password.png",
     githubLink: "https://github.com/mitchellmunderwood/Password-Generator",
     deployLink: "https://mitchellmunderwood.github.io/Password-Generator/",
-    stack: [],
+    stack: ["JS"],
   },
 ];
 
