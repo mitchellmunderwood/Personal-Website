@@ -13,7 +13,7 @@ function Work() {
         <Title title="Work" subtitle="Projects I've worked on." />
         <Projects />
         <Title
-          title="About Me"
+          title="A Little About Me"
           subtitle="I'm a creative web developer with design and engineering passion,
            who wants to help you develop your next big thing."
         />

@@ -15,7 +15,11 @@ function App() {
       <main>
         <Router>
           <Switch>
-            <Route exact path={["", "/", "/work"]} component={Work} />
+            <Route
+              exact
+              path={["/Personal-Website", "", "/", "/work"]}
+              component={Work}
+            />
             <Route exact path="/me" component={Me} />
             <Route exact path="/contact" component={Contact} />
           </Switch>
