@@ -1,0 +1,20 @@
+.IconTitle {
+  font-family: "Caveat";
+  margin-top: 10px;
+  margin-bottom: 100px;
+  font-weight: 200;
+  font-size: 50px;
+  display: inline-block;
+  width: 60%;
+}
+
+.IconContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.IconImage {
+  width: 70px;
+  height: auto;
+}
