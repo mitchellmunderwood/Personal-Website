@@ -8,8 +8,13 @@ import Contact from "./pages/Contact/index";
 import NavBar from "./components/NavBar/index";
 import Footer from "./components/Footer/index";
 import Video from "./components/Video/index";
+import appData from "./data/projects";
 
 function App() {
+
+
+  // useEffect to load store with data from file upon app opening
+
   return (
     <div className="App">
       <main>
