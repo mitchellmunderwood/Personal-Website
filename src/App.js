@@ -22,7 +22,7 @@ function App() {
           <Switch>
             <Route
               exact
-              path={["/Portfolio-1.2-React/", "/work"]}
+              path={["/Portfolio-1.2-React/", "/Portfolio-1.2-React/work"]}
               component={Work}
             />
             <Route exact path="/Portfolio-1.2-React/me" component={Me} />
