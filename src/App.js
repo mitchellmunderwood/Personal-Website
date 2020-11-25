@@ -22,11 +22,11 @@ function App() {
           <Switch>
             <Route
               exact
-              path={["/Personal-Website", "", "/", "/work"]}
+              path={["/Portfolio-1.2-React/", "/work"]}
               component={Work}
             />
-            <Route exact path="/me" component={Me} />
-            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/Portfolio-1.2-React/me" component={Me} />
+            <Route exact path="/Portfolio-1.2-React/contact" component={Contact} />
           </Switch>
           <NavBar />
         </Router>

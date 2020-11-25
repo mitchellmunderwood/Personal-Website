@@ -5,7 +5,7 @@ import "./index.css";
 function NavLogo() {
   return (
     <div id="marketing">
-      <Link to="/">
+      <Link to="/Portfolio-1.2-React/">
         <div id="marketing-logo">
           <img
             id="marketing-logo-img"

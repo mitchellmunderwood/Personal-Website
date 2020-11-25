@@ -5,13 +5,13 @@ function NavInternal() {
   return (
     <ul className="nav-internal">
       <li>
-        <Link to="/me">ME</Link>
+        <Link to="/Portfolio-1.2-React/me">ME</Link>
       </li>
       <li>
-        <Link to="/work">WORK</Link>
+        <Link to="/Portfolio-1.2-React/work">WORK</Link>
       </li>
       <li>
-        <Link to="/contact">CONTACT</Link>
+        <Link to="/Portfolio-1.2-React/contact">CONTACT</Link>
       </li>
     </ul>
   );
